@@ -265,7 +265,7 @@ footer .contact {
 
 
 footer .copyright {
-margin: 20px 0;
+margin: 0 0 20px 0;
 
 }
 /* ==========================================================================
@@ -380,10 +380,6 @@ input[type=button] {
   margin: 20px 0;
 }
 
-/*.reviews .content-wrapper {
-  padding: 50px 0 45px 0;
-} */
-
 /* ==========================================================================
    Mobile Styles - About page
    ========================================================================== */
@@ -394,6 +390,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;  
   flex-flow: row wrap;
+  background-color: #527158;
 } 
 
 .contact-section {
@@ -401,6 +398,16 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
+}
+
+.contact-section h4 {
+  margin: 18px 0;
+}
+
+.contact-section h2 {
+  margin: 0;
+  margin-bottom: -8px;
 }
 
 .contact-content p {
@@ -411,12 +418,12 @@ input[type=button] {
 /* ==========================================================================
    Mobile Styles - FAQS page
    ========================================================================== */
-
 .faq {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -663,6 +670,15 @@ input[type=button] {
     flex-flow: row wrap;
   }
 
+  footer .content-wrapper {
+  margin: 100px 0;
+  width: 75%;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+  }
+
   /* ==========================================================================
    Tablet Styles - About page
    ========================================================================== */
@@ -673,12 +689,17 @@ input[type=button] {
    }
 
    .mission-content p {
-    width: 300px;
+    width: 47%;
     margin: 0;
    }
 
-   .contact-section .content-wrapper h2 {
+   .mission h2 {
+    width: 95%;
+   }
+
+   .contact-section h2 {
     width: 80%;
+    margin-bottom: 37px;
    }
 
    .contact-content {
@@ -697,11 +718,16 @@ input[type=button] {
 
 
    .faq-content {
-    flex-basis: 40%;
+    flex-basis: 45%;
    }
 
    .faq h2 {
     flex-basis: 100%;
+   }
+
+   .faq h4 {
+    font-size: .875em;
+    font-weight: 500;
    }
 }
 
@@ -822,7 +848,7 @@ input[type=button] {
 
     .reviews h2 {
       width: 75%;
-      font-size: 36px;
+      font-size: 2.25em;
     }
 
     .reviews article div {
@@ -836,13 +862,19 @@ input[type=button] {
     
     .mission h2,
     .contact-section .content-wrapper h2 {
-      width: 90%;
+      width: 96%;
       font-size: 48px;
     }
 
     .contact-section .content-wrapper h2 {
-      margin-bottom: 37px;
+      margin-bottom: 40px;
     }
+
+  .contact-section h4 {
+    margin: 0 0 40px 0;
+  }
+
+
 
 
    /* ==========================================================================
