@@ -272,9 +272,8 @@ margin: 0 0 20px 0;
    Mobile Styles - Homepage
    ========================================================================== */
 .hero-area {
-  background-image: url("../img/hero-image.jpg");
+  background-image: url("../img/hero-image.jpg") center no-repeat #253229;
   background-size: cover;
-  background-position: bottom;
   height: 500px;
 }
 
@@ -873,9 +872,6 @@ input[type=button] {
   .contact-section h4 {
     margin: 0 0 40px 0;
   }
-
-
-
 
    /* ==========================================================================
    Desktop Styles - FAQ Page
