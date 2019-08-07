@@ -423,7 +423,6 @@ input[type=button] {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 
 .contact-section {
@@ -719,8 +718,8 @@ input[type=button] {
   }
 
   footer .content-wrapper {
-  margin: 100px 0;
-  width: 75%;
+    margin: 100px 0;
+    width: 75%;
   }
 
   footer h4 {
@@ -731,19 +730,24 @@ input[type=button] {
    Tablet Styles - About page
    ========================================================================== */
    .mission-content {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
+     display: flex;
+     justify-content: space-between;
+     flex-flow: row nowrap;
    }
 
    .mission-content p {
-    width: 47%;
-    margin: 0;
+     width: 47%;
+     margin: 0;
    }
 
    .mission h2 {
-    width: 95%;
+     width: 95%;
    }
+
+  .map figure {
+    position: relative;
+    padding-bottom: 45%;
+    }
 
    .contact-section h2 {
     width: 80%;
@@ -931,9 +935,14 @@ input[type=button] {
       margin-bottom: 40px;
     }
 
-  .contact-section h4 {
+    .contact-section h4 {
     margin: 0 0 40px 0;
-  }
+    }
+
+    .map figure {
+    position: relative;
+    padding-bottom: 37.5%;
+    }
 
    /* ==========================================================================
    Desktop Styles - FAQ Page
