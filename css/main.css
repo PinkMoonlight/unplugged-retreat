@@ -280,7 +280,7 @@ margin: 0 0 20px 0;
    Mobile Styles - Homepage
    ========================================================================== */
 .hero-area {
-  background: url("../img/hero-image.jpg") center no-repeat #253229;
+  background: url("../img/hero-image.jpg") bottom no-repeat #253229;
   background-size: cover;
   height: 500px;
   display: flex;
@@ -605,6 +605,10 @@ input[type=button] {
    ========================================================================== */
 
   /*----Hero Area-------*/
+  .hero-area {
+    height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     width: 84%;
@@ -638,9 +642,7 @@ input[type=button] {
     padding: 11px 0;
    }
 
-   /*-------Features styles------*/
-
-   
+   /*-------Features styles------*/   
 
    .features .content-wrapper {
     display: flex;
@@ -804,6 +806,10 @@ input[type=button] {
     align-items: center;
    }
 
+   footer h4 {
+    font-size: 1.875em;
+   }
+
    /* ==========================================================================
    Desktop Styles - Homepage
    ========================================================================== */
@@ -918,6 +924,10 @@ input[type=button] {
    .faq h2 {
     width: 100%;
     font-size: 48px;
+   }
+
+   .faq h4 {
+    font-size: 1.125em;
    }
 
    .faq-content {
