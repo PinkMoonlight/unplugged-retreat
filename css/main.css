@@ -252,14 +252,20 @@ footer h4 {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 200px;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons i {
+  color: #527158;
+  font-size: 2.5em;
 }
 
 footer .content-wrapper {
@@ -714,8 +720,9 @@ input[type=button] {
 
   footer .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
+    margin: auto;
   }
 
   footer .contact, footer .social  {
@@ -733,7 +740,13 @@ input[type=button] {
 
   footer h4 {
     font-size: 1.5em;
+    margin-bottom: 40px;
   }
+
+  footer .contact {
+  margin-bottom: 0px;
+}
+
 
   /* ==========================================================================
    Tablet Styles - About page
