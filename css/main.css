@@ -705,6 +705,7 @@ input[type=button] {
   }
 
   .reviews h3 {
+    width: 73%;
     margin: 0 0 20px 0;
   }
 
@@ -871,6 +872,11 @@ input[type=button] {
       font-size: 60px;
     }
 
+    .hero-area .content-wrapper {
+      margin-top: 50px;
+
+    }
+
     /*------Aside------*/
     aside {
       background: #527158;
@@ -938,6 +944,11 @@ input[type=button] {
       font-size: 2.25em;
       margin-bottom: 90px;
     }
+
+    .reviews h3 {
+    width: 60%;
+    margin: 0 0 20px 0;
+  }
 
     .reviews article div {
       width: 40%;
