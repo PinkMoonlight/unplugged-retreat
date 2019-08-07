@@ -147,6 +147,7 @@ textarea {
     font-size: 0.875em;
     font-weight: normal;
     color: #e2e3ed;
+    margin: 0;
   }
    
   img {
@@ -478,6 +479,10 @@ input[type=button] {
   margin-bottom: 40px;
 }
 
+.faq h4 {
+  margin-bottom: 15px;
+}
+
 .faq-content {
   margin-bottom: 50px;
 }
@@ -595,6 +600,7 @@ input[type=button] {
    display: flex;
    justify-content: space-between;
    flex-flow: row nowrap;
+   height: 70px;
   }
 
    header .content-wrapper {
@@ -795,8 +801,8 @@ input[type=button] {
 
    .faq .content-wrapper {
     justify-content: space-between;
+    margin: 100px 0 50px 0;
    }
-
 
    .faq-content {
     flex-basis: 45%;
@@ -809,6 +815,7 @@ input[type=button] {
    .faq h4 {
     font-size: .875em;
     font-weight: 500;
+    margin-bottom: 20px;
    }
 }
 
