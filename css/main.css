@@ -377,6 +377,11 @@ input[type=button] {
   margin: 0;
 }
 
+.features i {
+  font-size: 3.75em;
+  padding-bottom: 40px;
+}
+
 /*------ Reviews -----*/
 .reviews {
   display: flex;
@@ -672,8 +677,12 @@ input[type=button] {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*flex-flow: row wrap; */
+    flex-flow: row wrap;
+  }
 
+  .features i {
+  font-size: 4.375em;
+  padding-bottom: 30px;
   }
 
   /*---------Reviews styles-------*/
@@ -891,17 +900,22 @@ input[type=button] {
     }
 
     .features .content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-  }
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap;
+    }
 
     .features-items {
-      flex-basis: 180px;
+      flex-basis: 20%;
     }
 
     .features article {
-      margin: 30px 70px;
+      margin: 30px 60px;
+    }
+
+    .features i {
+      font-size: 4.688em;
+      padding-bottom: 35px;
     }
 
     /*--------Reviews-------*/
@@ -936,12 +950,12 @@ input[type=button] {
     }
 
     .contact-section h4 {
-    margin: 0 0 40px 0;
+      margin: 0 0 40px 0;
     }
 
     .map figure {
-    position: relative;
-    padding-bottom: 37.5%;
+      position: relative;
+      padding-bottom: 37.5%;
     }
 
    /* ==========================================================================
