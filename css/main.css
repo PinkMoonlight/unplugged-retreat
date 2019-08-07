@@ -161,11 +161,6 @@ textarea {
    font-style: normal; 
   }
    
-  .content-wrapper {
-   
-  }
-
-
 /*------Base Styles--------*/
 
    .content-wrapper {
@@ -322,7 +317,8 @@ aside .content-wrapper {
   margin-top: 25px;
 }
 
-/*******Input form Area*******/
+/*---------Input form Area--------*/
+
 aside .form {
   margin-top: 30px;
 }
@@ -389,6 +385,7 @@ input[type=button] {
 }
 
 /*------ Reviews -----*/
+
 .reviews {
   display: flex;
   justify-content: center;
@@ -409,7 +406,6 @@ input[type=button] {
 /* ==========================================================================
    Mobile Styles - About page
    ========================================================================== */
-
 
 .mission {
   display: flex;
@@ -461,6 +457,7 @@ input[type=button] {
 /* ==========================================================================
    Mobile Styles - FAQS page
    ========================================================================== */
+
 .faq {
   display: flex;
   justify-content: center;
@@ -570,9 +567,9 @@ input[type=button] {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
+   Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
@@ -628,11 +625,12 @@ input[type=button] {
     display: none;
    }
 
-   /* ==========================================================================
+   /*==========================================================================
    Tablet Styles - Homepage
    ========================================================================== */
 
   /*----Hero Area-------*/
+
   .hero-area {
     height: 600px;
   }
@@ -643,6 +641,7 @@ input[type=button] {
   }
 
 /*-------Aside Area-------*/
+
    aside .content-wrapper {
     margin: 50px 0 ;
     display: flex;
@@ -687,8 +686,8 @@ input[type=button] {
   }
 
   .features i {
-  font-size: 4.375em;
-  padding-bottom: 30px;
+    font-size: 4.375em;
+    padding-bottom: 30px;
   }
 
   /*---------Reviews styles-------*/
@@ -752,6 +751,7 @@ input[type=button] {
   /* ==========================================================================
    Tablet Styles - About page
    ========================================================================== */
+   
    .mission-content {
      display: flex;
      justify-content: space-between;
@@ -777,13 +777,19 @@ input[type=button] {
     margin-bottom: 37px;
    }
 
+   .contact-sedtion h4 {
+    font-size: 1.5em;
+    font-weight: 500;
+   }
+
    .contact-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    width: 95%;
    }
 
-   /* ==========================================================================
+   /*==========================================================================
    Tablet Styles - FAQ page
    ========================================================================== */
 
@@ -807,6 +813,7 @@ input[type=button] {
 }
 
 @media only screen and (min-width: 1200px) {
+
 /*---Desktop Styles here----*/
 
   .content-wrapper {
@@ -822,6 +829,7 @@ input[type=button] {
   }
 
   /*-------Header-------*/
+
   header {
     margin: 0 auto;
   }
@@ -851,6 +859,10 @@ input[type=button] {
     align-items: center;
    }
 
+   footer .footer-content {
+    justify-content: space-between;
+   }
+
    footer h4 {
     font-size: 1.875em;
    }
@@ -858,7 +870,9 @@ input[type=button] {
    /* ==========================================================================
    Desktop Styles - Homepage
    ========================================================================== */
+
    /*------Hero Area------*/
+
    .hero-area {
     height: 600px;
     margin: 0 auto;
@@ -878,6 +892,7 @@ input[type=button] {
     }
 
     /*------Aside------*/
+
     aside {
       background: #527158;
       justify-content: space-around;
@@ -948,7 +963,7 @@ input[type=button] {
     .reviews h3 {
     width: 60%;
     margin: 0 0 20px 0;
-  }
+    }
 
     .reviews article div {
       width: 40%;
@@ -959,7 +974,7 @@ input[type=button] {
       width: 47%;
     }
 
-    /* ==========================================================================
+    /*==========================================================================
    Desktop Styles - About Page
    ========================================================================== */
     
@@ -972,6 +987,10 @@ input[type=button] {
     .contact-section .content-wrapper h2 {
       margin-bottom: 40px;
     }
+
+    .contact-content {
+      width: 88%;
+    }  
 
     .contact-section h4 {
       margin: 0 0 40px 0;
